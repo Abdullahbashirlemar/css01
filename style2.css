@@ -1,0 +1,38 @@
+    margin:50
+}
+header {
+    background-color: rgb(255, 175, 71);
+    border-style: double;
+}
+
+aside {
+    background-color: rgb(158, 0, 0);
+    height: 80vh;
+    width: 20vw;
+    display: inline-block;
+}
+main {
+    background-color: rgb(71, 218, 255);
+    height: 80vh;
+    width: 76vw;
+    display: inline-block;
+    position: relative;
+}
+
+footer {
+    background-color: rgb(71, 255, 80);
+    border-style: double;
+}
+
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-image: url("./Ab.jpeg");
+}
+#profileImage{
+    position: absolute;
+    width: 85%;
+
+}
